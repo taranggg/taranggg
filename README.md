@@ -2,7 +2,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Satisfy&size=35&pause=1000&color=F77768&center=true&vCenter=true&width=500&height=70&lines=Hey+There!+%F0%9F%91%8B;I+am+Tarang..." alt="Typing SVG" /></a>
 </h1>
 
-<h3 align="center">A passionate software developer from India 🇮🇳 </h3>
+<h3 align="center">Software developer from India 🇮🇳 </h3>
 
 <br/>
 
@@ -12,51 +12,49 @@
  
  🌱 I’m currently learning **Docker, AWS, Supabase**  
 
- 💬 Ask me about **React, React Native, Node.js, Firebase... or anything [here](https://github.com/taranggg/taranggg/issues)**  
+ ⚡ In my free time, I solve problems on Leetcode and watch mystery thrillers.
 
- ⚡ Fun fact **The first computer bug was an actual moth stuck in a computer in 1947 🦋**  
+ 🦋 Fun fact: The first computer bug was an actual moth stuck in a computer in 1947 
 
 </div>
- 
-<div align="center"> 
-  <a href="mailto:tarangkumar170@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://www.linkedin.com/in/tarangkumarr17/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-</div>
 
- <hr/>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/LLNsGJo5akIbPNb7hz/giphy.gif" width="200"/>
+</div>
+<h4 align="left">Connect with me: </h4>
+<p align="left">
+  <a href="https://linkedin.com/in/tarangkumarr17" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+</p> 
  
+ <br/>
+ <br/>
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git,r" />
-    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql,flask" /><br>
+    <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git" />
+    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql" /><br>
 </div>
+
+
+
+
+
 
 <br/>
-<hr/>
-
-<div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
- <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
-  
-  <br/><br/><br/>
-</div>
-
-<hr/>
+<br/>
 
 <h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<div align=center>
-  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=taranggg&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats-tranggg.vercel.app/api?username=taranggg&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
-  <br/>
-  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=taranggg&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+<div align="center">
+  <img src="https://media.giphy.com/media/pgnxJGob9PQQ0/giphy.gif" width="180"/>
 </div>
+<br>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=taranggg&theme=aura&hide_border=true" width="50%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taranggg&theme=aura&hide_border=true&include_all_commits=true&count_private=true&layout=compact" width="36%" /> </br>
+</div>
+
+
 
 <br/><br/>
 
