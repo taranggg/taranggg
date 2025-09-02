@@ -30,14 +30,15 @@
 
 <div align="center">
   <h4>📫 Connect with me</h4>
-<div align="center">
-    <a href="https://linkedin.com/in/tarangkumarr17" target="blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="30" />
+  <p align="center">
+  <a href="https://linkedin.com/in/tarangkumarr17" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="36" />
   </a>
-  <a href="mailto:tarangkumar170@gmail.com" target="blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" height="30" width="30" />
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:tarangkumar170@gmail.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" height="36" />
   </a>
-</div>
+</p>
 </div>
 
 <br/><br/>
