@@ -5,7 +5,7 @@
 </h1>
 
 <h2 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Zeyada&size=38&duration=4000&pause=1000&color=A3C3D9&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Tarang+from+India+🇮🇳;I+love+building+things+with+code+✨;Let's+connect+and+collaborate!+🚀" alt="Tarang Intro"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Zeyada&size=38&duration=4000&pause=1500&color=A3C3D9&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Tarang+from+India+🇮🇳;I+love+building+things+with+code+✨;Let's+connect+and+collaborate!+🚀" alt="Tarang Intro"/>
 </h2>
 
 <br/>
