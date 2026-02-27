@@ -18,7 +18,15 @@
 
  ⚡ In my free time, I solve problems on Leetcode and watch Anime.  
 
- 🦋 Fun fact: The first computer bug was an actual moth stuck in a computer in 1947  
+# 🧠 Rare Dev Fun Fact
+
+> **1971 was wild:** a self-replicating program called **Creeper** spread across **ARPANET** and popped up the message:  
+> **“I’M THE CREEPER: CATCH ME IF YOU CAN!”**
+
+### Why this is *ridiculously* cool
+- **Creeper** is often cited as one of the earliest network “worms”.
+- To stop it, another program named **Reaper** was created to **hunt Creeper down and remove it** — basically early **antivirus behavior**.
+- So yes… *cybersecurity* arguably started as a game of tag. 🏃‍♂️💨
 
 </div>
 
