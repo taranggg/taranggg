@@ -14,9 +14,9 @@
  
  🔭 I’m currently working on **cross-platform web and mobile apps**  
  
- 🌱 I’m currently learning **Docker, AWS, Supabase**  
+ 🌱 I’m currently learning **Docker, AWS**  
 
- ⚡ In my free time, I solve problems on Leetcode and watch mystery thrillers.  
+ ⚡ In my free time, I solve problems on Leetcode and watch Anime.  
 
  🦋 Fun fact: The first computer bug was an actual moth stuck in a computer in 1947  
 
