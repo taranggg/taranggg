@@ -76,7 +76,8 @@ def main():
             readme.format(
                 chess_board=markdown.board_to_markdown(board),
                 moves_list=markdown.generate_moves_list(board),
-                turn="white" if board.turn == chess.WHITE else "black",
+                turn=markdown.generate_turn_banner(
+                    "white" if board.turn == chess.WHITE else "black"),
                 owner_controls=markdown.generate_owner_controls(),
                 last_moves=markdown.generate_last_moves(),
                 top_moves=markdown.generate_top_moves(),

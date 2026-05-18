@@ -30,12 +30,26 @@ def create_new_game_link(text):
 
 
 def generate_owner_controls():
-    owner = settings.get('game', {}).get('owner', '')
-    if owner and not owner.startswith('@'):
-        owner = '@' + owner
+    return ""
 
-    link = create_new_game_link("🔄 Restart game")
-    return f"**Game host ({owner}):** {link} — reset the board anytime (only {owner} can restart mid-game).\n"
+
+def generate_turn_banner(turn):
+    """Prominent turn indicator (HTML) for the README."""
+    if turn == "white":
+        label, emoji = "WHITE", "⬜"
+        fg, bg, border = "#1f2328", "#f6f8fa", "#d0d7de"
+    else:
+        label, emoji = "BLACK", "⬛"
+        fg, bg, border = "#f0f6fc", "#1f2328", "#30363d"
+
+    piece = (
+        f'<span style="color:{fg};background-color:{bg};border:2px solid {border};'
+        f"padding:4px 14px;border-radius:6px;font-weight:700;font-size:1.15em;"
+        f'letter-spacing:0.05em;">{emoji}&nbsp;{label}</span>'
+    )
+    return (
+        f'<p align="center"><strong>It\'s your turn to play!</strong> Move a {piece} piece.</p>\n'
+    )
 
 
 def create_issue_link(source, dest_list):

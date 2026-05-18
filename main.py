@@ -225,7 +225,7 @@ def main(issue, issue_author, game_owner):
         readme = file.read()
         readme = replace_text_between(readme, settings['markers']['board'], '{chess_board}')
         readme = replace_text_between(readme, settings['markers']['moves'], '{moves_list}')
-        readme = replace_text_between(readme, settings['markers']['turn'],  '{turn}')
+        readme = replace_text_between(readme, settings['markers']['turn'], '{turn}')
         readme = replace_text_between(readme, settings['markers']['owner_controls'], '{owner_controls}')
         readme = replace_text_between(readme, settings['markers']['last_moves'], '{last_moves}')
         readme = replace_text_between(readme, settings['markers']['top_moves'], '{top_moves}')
@@ -234,7 +234,8 @@ def main(issue, issue_author, game_owner):
         file.write(readme.format(
             chess_board=markdown.board_to_markdown(gameboard),
             moves_list=markdown.generate_moves_list(gameboard),
-            turn=('white' if gameboard.turn == chess.WHITE else 'black'),
+            turn=markdown.generate_turn_banner(
+                'white' if gameboard.turn == chess.WHITE else 'black'),
             owner_controls=markdown.generate_owner_controls(),
             last_moves=last_moves,
             top_moves=markdown.generate_top_moves()))
