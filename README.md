@@ -31,13 +31,17 @@ A developer locked in on crafting buttery-smooth applications across web and mob
 
 ### What I'm working on right now
 
-Currently architecting scalable cross-platform platforms with React Native and Expo, alongside building high-performance modern web apps using Next.js, TypeScript, and Tailwind CSS. I have built and shipped applications for 500+ users, integrating complex Stripe and Google APIs to ensure the backend is just as robust as the frontend.
+Currently, I am architecting scalable platforms with React Native and Expo, alongside building a smart, AI-enabled inventory management web application on steroids using Next.js, TypeScript, and Tailwind CSS. I ensure the backend architecture is just as robust as the frontend, utilizing my experience with Docker and AWS to keep deployments seamless and infrastructure rock-solid.
 
-I am absolutely obsessed with performance. Whether it is engineering 40%+ speed boosts, eliminating redundant UI re-renders, or optimizing client-side media compression, if the application is not fast, I am not shipping it.
+I am absolutely obsessed with performance. Whether it is eliminating redundant UI re-renders, optimizing client-side media compression, or engineering significant speed boosts, if the application is not fast, I am not shipping it.
 
-When a project requires a premium aesthetic, I spend my time building headless Shopify storefronts using Hydrogen and Liquid, or cooking up custom 3D animations using Spline and Framer Motion. All of this happens while leveling up my Docker and AWS infrastructure skills, so the deployments are as seamless as the user experience.
+When a project requires a premium aesthetic, I spend my time making it absolutely perfect in Figma first. I naturally lean towards clean, minimalist layouts and SaaS-style glassmorphism before writing any code. Once the design is locked, I bring those interfaces to life using custom 3D animations with Spline and Three.js.
 
 <br/>
+
+<p align="left">
+  <i>staying toxic in the backend so the ui stays peaceful.</i>
+</p>
 
 ### The Stack
 
@@ -53,7 +57,7 @@ When a project requires a premium aesthetic, I spend my time building headless S
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,framer,shopify&perline=10" alt="Frontend Frameworks" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,framer&perline=10" alt="Frontend Frameworks" />
   </a>
 </p>
 
@@ -66,11 +70,6 @@ When a project requires a premium aesthetic, I spend my time building headless S
 </p>
 
 <br/>
-
-<p align="left">
-  <i>Let's build something cool.</i>
-</p>
----
 
 # ♟️ Play Chess Against Me
 
