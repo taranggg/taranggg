@@ -13,9 +13,7 @@ if the ui don't feel smooth, i'm not shipping it — no cap
 <br/>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/LLNsGJo5akIbPNb7hz/giphy.gif" width="220"/>
-  &nbsp;
-  <img src="img/capybara/Happy%20Dance%20GIF.gif" width="220"/>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGtjOHY4ajBwdWptOWFyYTVtcGNzcmthdWt2N2N6cXp6cjl4YmthNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/OgUorGH0Z75b3unoPA/giphy.gif" width="220"/>
 </div>
 ---
 
