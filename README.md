@@ -174,5 +174,6 @@ When a project requires a premium aesthetic, I spend my time making it absolutel
 
 <p align="left">
   <i>staying toxic in the backend so the ui stays peaceful.</i>
-  peace out.
+  <br/>
+  peace out ✌️
 </p>
