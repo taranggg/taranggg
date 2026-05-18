@@ -24,7 +24,7 @@ if the ui don't feel smooth, i'm not shipping it — no cap
   <strong>DESIGNER X DEVELOPER</strong> <br>
   Full-Stack Developer | React Native • Next.js • Node.js <br/>
   <a href="mailto:tarangkumar170@gmail.com">
-    <img src="https://api.iconify.design/lucide:mail.svg?color=%23888888&width=20" alt="Email" />
+    <img src="https://api.iconify.design/mdi:email.svg?color=%23ffffff&width=16" alt="Email" /> tarangkumar170@gmail.com
   </a>
 </p>
 
