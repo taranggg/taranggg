@@ -68,6 +68,24 @@ def get_game_owner(settings):
     return owner
 
 
+def start_new_game(game_owner, settings):
+    """Create a fresh game and return (game, board)."""
+    game = chess.pgn.Game()
+    game.headers['Event'] = game_owner + '\'s Online Open Chess Tournament'
+    site = os.environ.get('GITHUB_REPOSITORY', 'taranggg/taranggg')
+    game.headers['Site'] = 'https://github.com/' + site
+    game.headers['Date'] = datetime.now().strftime('%Y.%m.%d')
+    game.headers['Round'] = '1'
+
+    with open('data/last_moves.txt', 'w') as last_moves:
+        last_moves.write('Start game: ' + game_owner)
+
+    with open('games/current.pgn', 'w') as pgn_file:
+        print(game, file=pgn_file, end='\n\n')
+
+    return game, chess.Board()
+
+
 def parse_issue(title):
     """Parse issue title and return a tuple with (action, <move>)"""
     if title.lower() == 'chess: start new game':
@@ -100,15 +118,7 @@ def main(issue, issue_author, game_owner):
         issue.create_comment(settings['comments']['successful_new_game'].format(author=issue_author))
         issue.edit(state='closed')
 
-        with open('data/last_moves.txt', 'w') as last_moves:
-            last_moves.write('Start game: ' + game_owner)
-
-        # Create new game
-        game = chess.pgn.Game()
-        game.headers['Event'] = game_owner + '\'s Online Open Chess Tournament'
-        game.headers['Site'] = 'https://github.com/' + os.environ['GITHUB_REPOSITORY']
-        game.headers['Date'] = datetime.now().strftime('%Y.%m.%d')
-        game.headers['Round'] = '1'
+        game, gameboard = start_new_game(game_owner, settings)
 
     elif action[0] == Action.MOVE:
         if not os.path.exists('games/current.pgn'):
@@ -133,8 +143,10 @@ def main(issue, issue_author, game_owner):
 
         move = chess.Move.from_uci(action[1])
 
-        # Check if player is moving twice in a row
-        if last_player == issue_author and 'Start game' not in last_move:
+        # Check if player is moving twice in a row (owner may play solo when enabled)
+        allow_owner_solo = settings.get('game', {}).get('allow_owner_solo', False)
+        if (last_player == issue_author and 'Start game' not in last_move
+                and not (allow_owner_solo and issue_author == game_owner)):
             issue.create_comment(settings['comments']['consecutive_moves'].format(author=issue_author))
             issue.edit(state='closed', labels=['Invalid'])
             return False, 'ERROR: Two moves in a row!'
@@ -170,12 +182,10 @@ def main(issue, issue_author, game_owner):
         issue.edit(state='closed', labels=['Invalid'])
         return False, 'ERROR: Unknown action'
 
-    # Save game to "games/current.pgn"
-    print(game, file=open('games/current.pgn', 'w'), end='\n\n')
+    if action[0] == Action.MOVE:
+        with open('games/current.pgn', 'w') as pgn_file:
+            print(game, file=pgn_file, end='\n\n')
 
-    last_moves = markdown.generate_last_moves()
-
-    # If it is a game over, archive current game
     if gameboard.is_game_over():
         win_msg = {
             '1/2-1/2': 'It\'s a draw',
@@ -186,36 +196,50 @@ def main(issue, issue_author, game_owner):
         with open('data/last_moves.txt', 'r') as last_moves_file:
             lines = last_moves_file.readlines()
             pattern = re.compile('.*: (@[a-z\\d](?:[a-z\\d]|-(?=[a-z\\d])){0,38})', flags=re.I)
-            player_list = { re.match(pattern, line).group(1) for line in lines }
+            player_list = { re.match(pattern, line).group(1) for line in lines if re.match(pattern, line) }
 
         if gameboard.result() == '1/2-1/2':
             issue.add_to_labels('👑 Draw!')
         else:
             issue.add_to_labels('👑 Winner!')
 
+        auto_reset = settings.get('game', {}).get('auto_reset_on_game_over', False)
+        auto_reset_note = (
+            'A fresh board has been started automatically — white to move!'
+            if auto_reset else ''
+        )
+
         issue.create_comment(settings['comments']['game_over'].format(
             outcome=win_msg.get(gameboard.result(), 'UNKNOWN'),
             players=', '.join(player_list),
-            num_moves=len(lines)-1,
-            num_players=len(player_list)))
+            num_moves=len(lines) - 1,
+            num_players=len(player_list),
+            auto_reset_note=auto_reset_note))
 
         os.rename('games/current.pgn', datetime.now().strftime('games/game-%Y%m%d-%H%M%S.pgn'))
-        os.remove('data/last_moves.txt')
+
+        if auto_reset:
+            game, gameboard = start_new_game(game_owner, settings)
+        else:
+            os.remove('data/last_moves.txt')
+
+    last_moves = markdown.generate_last_moves()
 
     with open('README.md', 'r') as file:
         readme = file.read()
         readme = replace_text_between(readme, settings['markers']['board'], '{chess_board}')
         readme = replace_text_between(readme, settings['markers']['moves'], '{moves_list}')
         readme = replace_text_between(readme, settings['markers']['turn'],  '{turn}')
+        readme = replace_text_between(readme, settings['markers']['owner_controls'], '{owner_controls}')
         readme = replace_text_between(readme, settings['markers']['last_moves'], '{last_moves}')
         readme = replace_text_between(readme, settings['markers']['top_moves'], '{top_moves}')
 
     with open('README.md', 'w') as file:
-        # Write new board & list of movements
         file.write(readme.format(
             chess_board=markdown.board_to_markdown(gameboard),
             moves_list=markdown.generate_moves_list(gameboard),
             turn=('white' if gameboard.turn == chess.WHITE else 'black'),
+            owner_controls=markdown.generate_owner_controls(),
             last_moves=last_moves,
             top_moves=markdown.generate_top_moves()))
 

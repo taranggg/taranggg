@@ -14,6 +14,22 @@ with open('data/settings.yaml', 'r') as settings_file:
 def create_link(text, link):
     return f"[{text}]({link})"
 
+def create_new_game_link(text):
+    issue_link = settings['issues']['link'].format(
+        repo=os.environ["GITHUB_REPOSITORY"],
+        params=urlencode(settings['issues']['new_game']))
+    return create_link(text, issue_link)
+
+
+def generate_owner_controls():
+    owner = settings.get('game', {}).get('owner', '')
+    if owner and not owner.startswith('@'):
+        owner = '@' + owner
+
+    link = create_new_game_link("🔄 Restart game")
+    return f"**Game host ({owner}):** {link} — reset the board anytime (only {owner} can restart mid-game).\n"
+
+
 def create_issue_link(source, dest_list):
     issue_link = settings['issues']['link'].format(
         repo=os.environ["GITHUB_REPOSITORY"],
@@ -42,6 +58,9 @@ def generate_last_moves():
     markdown += "| :--: | :----- |\n"
 
     counter = 0
+
+    if not os.path.exists("data/last_moves.txt"):
+        return markdown + "\n"
 
     with open("data/last_moves.txt", 'r') as file:
         for line in file.readlines():
@@ -79,12 +98,8 @@ def generate_moves_list(board):
     # Write everything in Markdown format
     markdown = ""
 
-    if board.is_game_over():
-        issue_link = settings['issues']['link'].format(
-            repo=os.environ["GITHUB_REPOSITORY"],
-            params=urlencode(settings['issues']['new_game']))
-
-        return "**GAME IS OVER!** " + create_link("Click here", issue_link) + " to start a new game :D\n"
+    if board.is_game_over() and not settings.get('game', {}).get('auto_reset_on_game_over', False):
+        return "**GAME IS OVER!** " + create_new_game_link("Click here") + " to start a new game :D\n"
 
     if board.is_check():
         markdown += "**CHECK!** Choose your move wisely!\n"

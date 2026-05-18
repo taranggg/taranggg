@@ -1,1 +1,1 @@
-{'@taranggg': 1}
+{'@taranggg': 1, '@player1': 148, '@player2': 140, '@raresica1234': 2, '@marcizhu': 60, '@JeppeSRC': 12, '@LibertyAm': 24, '@Gaztin': 4, '@DaniGmzGnz': 2, '@Anthony10700': 2, '@eric-unc': 2, '@CescHolly': 2, '@marcizhu2': 2, '@Jurymax99': 6, '@caili0825yl': 2, '@maximyudayev': 6, '@Stockfish': 272, '@AlphaZero': 270}

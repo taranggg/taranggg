@@ -1,6 +1,10 @@
 game:
   # Host of this chess board (used for "Start game", tournament name, restart permission)
   owner: taranggg
+  # Let the owner play both colors (useful for solo testing)
+  allow_owner_solo: true
+  # Start a fresh board automatically after checkmate, stalemate, or draw
+  auto_reset_on_game_over: true
 
 comments:
   # Message to be shown when two consecutive moves are played. {author} is the author of the issue
@@ -14,6 +18,7 @@ comments:
     And that's a game over! {outcome}! This game had {num_moves} moves made by {num_players} players.
 
     Thanks to {players} for participating!
+    {auto_reset_note}
 
   # This message is displayed if the board is in an invalid state. This shouldn't be shown unless something
   # has gone terribly wrong
@@ -64,6 +69,9 @@ markers:
   turn:
     begin: "<!-- BEGIN TURN -->"
     end: "<!-- END TURN -->"
+  owner_controls:
+    begin: "<!-- BEGIN OWNER CONTROLS -->\n"
+    end: "<!-- END OWNER CONTROLS -->\n"
 
 misc:
   # Maximum number of last moves displayed

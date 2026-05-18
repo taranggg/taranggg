@@ -72,6 +72,7 @@ def main():
         readme = replace_text_between(readme, settings["markers"]["board"], "{chess_board}")
         readme = replace_text_between(readme, settings["markers"]["moves"], "{moves_list}")
         readme = replace_text_between(readme, settings["markers"]["turn"], "{turn}")
+        readme = replace_text_between(readme, settings["markers"]["owner_controls"], "{owner_controls}")
         readme = replace_text_between(readme, settings["markers"]["last_moves"], "{last_moves}")
         readme = replace_text_between(readme, settings["markers"]["top_moves"], "{top_moves}")
 
@@ -81,6 +82,7 @@ def main():
                 chess_board=markdown.board_to_markdown(board),
                 moves_list=markdown.generate_moves_list(board),
                 turn="white" if board.turn == chess.WHITE else "black",
+                owner_controls=markdown.generate_owner_controls(),
                 last_moves=markdown.generate_last_moves(),
                 top_moves=markdown.generate_top_moves(),
             )
