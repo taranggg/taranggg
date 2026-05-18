@@ -48,9 +48,9 @@ When a project requires a premium aesthetic, I spend my time making it absolutel
 **Languages & Core**
 
 <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,html,css&perline=10" alt="Languages" />
-  </a>
+  <img src="https://api.iconify.design/lucide:quote.svg?color=%23888888&width=35" alt="quote" /> <br>
+  <i>staying toxic in the backend so the ui stays peaceful.</i>
+</p>
 </p>
 
 **Frontend, Mobile & Animation**
