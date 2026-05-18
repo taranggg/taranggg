@@ -27,6 +27,10 @@ if the ui don't feel smooth, i'm not shipping it — no cap
 
 <br/>
 
+A developer locked in on crafting buttery-smooth applications across web and mobile. I focus on delivering clean code, fast APIs, and user interfaces that actually feel right.
+
+<br/>
+
 # ♟️ Play Chess Against Me
 
 <div align="left">
@@ -124,8 +128,6 @@ Have you spotted a bug? Feel free to open an [issue](https://github.com/marcizhu
 </details>
 
 ---
-
-A developer locked in on crafting buttery-smooth applications across web and mobile. I focus on delivering clean code, fast APIs, and user interfaces that actually feel right.
 
 ### What I'm working on right now
 
