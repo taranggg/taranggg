@@ -13,9 +13,6 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import src.markdown as markdown
 from main import get_game_owner
 
-REPO = "taranggg/taranggg"
-
-
 def normalize_last_moves(settings):
     """Ensure Start game is always credited to the configured game owner."""
     owner = get_game_owner(settings)
@@ -59,8 +56,6 @@ def load_board():
 
 
 def main():
-    os.environ["GITHUB_REPOSITORY"] = REPO
-
     with open("data/settings.yaml", "r") as settings_file:
         settings = yaml.load(settings_file, Loader=yaml.FullLoader)
 
@@ -88,7 +83,7 @@ def main():
             )
         )
 
-    print(f"README updated for {REPO}")
+    print(f"README updated for {markdown.get_repository()}")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,8 @@
 game:
   # Host of this chess board (used for "Start game", tournament name, restart permission)
   owner: taranggg
+  # GitHub repo as username/repo (issue links + PGN site). Must match this repository on GitHub.
+  repository: taranggg/taranggg
   # Let the owner play both colors (useful for solo testing)
   allow_owner_solo: true
   # Start a fresh board automatically after checkmate, stalemate, or draw

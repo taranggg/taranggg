@@ -11,12 +11,20 @@ with open('data/settings.yaml', 'r') as settings_file:
     settings = yaml.load(settings_file, Loader=yaml.FullLoader)
 
 
+def get_repository():
+    """Repo slug (owner/name) for issue links and PGN site header."""
+    repo = settings.get('game', {}).get('repository', '').strip()
+    if repo:
+        return repo
+    return os.environ.get('GITHUB_REPOSITORY', 'taranggg/taranggg')
+
+
 def create_link(text, link):
     return f"[{text}]({link})"
 
 def create_new_game_link(text):
     issue_link = settings['issues']['link'].format(
-        repo=os.environ["GITHUB_REPOSITORY"],
+        repo=get_repository(),
         params=urlencode(settings['issues']['new_game']))
     return create_link(text, issue_link)
 
@@ -32,7 +40,7 @@ def generate_owner_controls():
 
 def create_issue_link(source, dest_list):
     issue_link = settings['issues']['link'].format(
-        repo=os.environ["GITHUB_REPOSITORY"],
+        repo=get_repository(),
         params=urlencode(settings['issues']['move'], safe="{}"))
 
     ret = [create_link(dest, issue_link.format(source=source, dest=dest)) for dest in sorted(dest_list)]

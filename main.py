@@ -68,7 +68,7 @@ def start_new_game(game_owner, settings):
     """Create a fresh game and return (game, board)."""
     game = chess.pgn.Game()
     game.headers['Event'] = game_owner + '\'s Online Open Chess Tournament'
-    site = os.environ.get('GITHUB_REPOSITORY', 'taranggg/taranggg')
+    site = markdown.get_repository()
     game.headers['Site'] = 'https://github.com/' + site
     game.headers['Date'] = datetime.now().strftime('%Y.%m.%d')
     game.headers['Round'] = '1'
