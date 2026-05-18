@@ -27,50 +27,6 @@ if the ui don't feel smooth, i'm not shipping it — no cap
 
 <br/>
 
-A developer locked in on crafting buttery-smooth applications across web and mobile. I focus on delivering clean code, fast APIs, and user interfaces that actually feel right.
-
-### What I'm working on right now
-
-Currently, I am architecting scalable platforms with React Native and Expo, alongside building a smart, AI-enabled inventory management web application on steroids using Next.js, TypeScript, and Tailwind CSS. I ensure the backend architecture is just as robust as the frontend, utilizing my experience with Docker and AWS to keep deployments seamless and infrastructure rock-solid.
-
-I am absolutely obsessed with performance. Whether it is eliminating redundant UI re-renders, optimizing client-side media compression, or engineering significant speed boosts, if the application is not fast, I am not shipping it.
-
-When a project requires a premium aesthetic, I spend my time making it absolutely perfect in Figma first. I naturally lean towards clean, minimalist layouts and SaaS-style glassmorphism before writing any code. Once the design is locked, I bring those interfaces to life using custom 3D animations with Spline and Three.js.
-
-<br/>
-
-<p align="left">
-  <i>staying toxic in the backend so the ui stays peaceful.</i>
-</p>
-
-### The Stack
-
-**Languages & Core**
-
-<p align="left">
-  <img src="https://api.iconify.design/lucide:quote.svg?color=%23888888&width=35" alt="quote" /> <br>
-  <i>staying toxic in the backend so the ui stays peaceful.</i>
-</p>
-</p>
-
-**Frontend, Mobile & Animation**
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,framer&perline=10" alt="Frontend Frameworks" />
-  </a>
-</p>
-
-**Backend, Cloud & Tooling**
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws,git,github,vscode,figma&perline=10" alt="Backend and Cloud" />
-  </a>
-</p>
-
-<br/>
-
 # ♟️ Play Chess Against Me
 
 <div align="left">
@@ -166,5 +122,50 @@ Have you spotted a bug? Feel free to open an [issue](https://github.com/marcizhu
 
 <!-- END TOP MOVES -->
 </details>
+
+---
+
+A developer locked in on crafting buttery-smooth applications across web and mobile. I focus on delivering clean code, fast APIs, and user interfaces that actually feel right.
+
+### What I'm working on right now
+
+Currently, I am architecting scalable platforms with React Native and Expo, alongside building a smart, AI-enabled inventory management web application on steroids using Next.js, TypeScript, and Tailwind CSS. I ensure the backend architecture is just as robust as the frontend, utilizing my experience with Docker and AWS to keep deployments seamless and infrastructure rock-solid.
+
+I am absolutely obsessed with performance. Whether it is eliminating redundant UI re-renders, optimizing client-side media compression, or engineering significant speed boosts, if the application is not fast, I am not shipping it.
+
+When a project requires a premium aesthetic, I spend my time making it absolutely perfect in Figma first. I naturally lean towards clean, minimalist layouts and SaaS-style glassmorphism before writing any code. Once the design is locked, I bring those interfaces to life using custom 3D animations with Spline and Three.js.
+
+<br/>
+
+<p align="left">
+  <i>staying toxic in the backend so the ui stays peaceful.</i>
+</p>
+
+### The Stack
+
+**Languages & Core**
+
+<p align="left">
+  <i>staying toxic in the BACKEND so the UI stays peaceful.</i>
+</p>
+</p>
+
+**Frontend, Mobile & Animation**
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,framer&perline=10" alt="Frontend Frameworks" />
+  </a>
+</p>
+
+**Backend, Cloud & Tooling**
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws,git,github,vscode,figma&perline=10" alt="Backend and Cloud" />
+  </a>
+</p>
+
+<br/>
 
 ---
