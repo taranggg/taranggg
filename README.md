@@ -16,27 +16,26 @@ if the ui don't feel smooth, i'm not shipping it — no cap
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnMxcHljOHB2M2o0ajBvZmQxdHpzcG5rZWFodjNycDh4MzR3Zm5taiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sbW2AUZLt98WoenLSl/giphy.gif" width="220"/>
 </div>
 --- -->
-<div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDFtaTh2YXo0cG90cDQ1NWRkamhyNzBwZHZ4bmN4b3VzMjV6MzR6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1XodwykSjVClnhLuV8/giphy.gif" width="120" />
-  
-  <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Satisfy&size=38&duration=3500&pause=1000&color=993955&center=true&vCenter=true&width=700&height=70&lines=hey+im+tarang;software+engineer+from+india;web,+mobile,+smooth+uis;anime+%2B+code+%2B+creativity" />
-  </h1>
-</div>
+<h1 align="left">
+  tarang <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDFtaTh2YXo0cG90cDQ1NWRkamhyNzBwZHZ4bmN4b3VzMjV6MzR6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1XodwykSjVClnhLuV8/giphy.gif" width="50" align="center" />
+</h1>
 
-<div align="center">
-  <em>dev locked in on crafting buttery smooth apps across web and mobile. <br> from headless storefronts to 3D particles, i make sure the ui hits right and the deploys don't miss.</em>
-</div>
+<p align="left">
+  DESIGNER X DEVELOPER <br>
+  full-stack dev | react native • next.js • node.js
+</p>
 
 <br/>
 
+dev locked in on crafting buttery smooth apps across web and mobile. delivering clean code, fast apis, and ui that actually hits right.
+
 ### what i'm on right now
 
-currently architecting scalable mobile apps with react native and expo, while building high performance headless storefronts using shopify hydrogen.
+currently architecting scalable platforms with react native and next.js, backed by solid node.js architectures. i've built and shipped apps for 500+ users, hooking up complex stripe and google api integrations along the way to make sure the backend does exactly what it needs to.
 
-i spend a lot of time cooking up custom webgl shaders, building out scenes in spline, and making scroll animations feel natural with framer motion. absolutely obsessed with killing redundant re-renders and optimizing client side loads.
+obsessed with performance. whether it's engineering 40%+ performance boosts, killing redundant re-renders, or optimizing client side loads, if it's not fast, i'm not shipping it.
 
-also lowkey leveling up docker and aws so the backend setup is as solid as the frontend.
+i also spend time cooking up headless shopify storefronts and custom 3d animations in spline when the project needs that extra sauce, all while leveling up my docker and aws game so the deploys are as seamless as the frontend.
 
 <br/>
 
@@ -50,19 +49,19 @@ also lowkey leveling up docker and aws so the backend setup is as solid as the f
   </a>
 </p>
 
-**web & mobile frameworks**
+**frontend & mobile**
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs&perline=10" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&perline=10" />
   </a>
 </p>
 
-**cloud, tooling & design**
+**backend, cloud & tooling**
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,aws,git,github,vscode,figma&perline=10" />
+    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws,git,github,vscode,figma&perline=10" />
   </a>
 </p>
 
@@ -70,16 +69,16 @@ also lowkey leveling up docker and aws so the backend setup is as solid as the f
 
 ### github stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="languages graph"  />
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=taranggg&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taranggg&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="languages graph" />
 </div>
 
 <br/>
 
-<div align="center">
+<p align="left">
   <i>let's build something cool.</i>
-</div>
+</p>
 ---
 
 # ♟️ Play Chess Against Me
