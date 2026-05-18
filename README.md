@@ -1,28 +1,10 @@
-<!-- <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Satisfy&size=38&duration=3500&pause=1000&color=993955&center=true&vCenter=true&width=700&height=70&lines=Hey+I'm+Tarang+👋;Frontend+Developer+from+India+🇮🇳;Building+cool+things+with+React+⚛️;Anime+%2B+Code+%2B+Creativity+✨" />
-</h1>
-
-<div align="left">
-
-frontend dev locked in on react, react native & next.js
-lowkey leveling up docker and aws so deploys actually hit
-if the ui don't feel smooth, i'm not shipping it — no cap
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnMxcHljOHB2M2o0ajBvZmQxdHpzcG5rZWFodjNycDh4MzR3Zm5taiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sbW2AUZLt98WoenLSl/giphy.gif" width="220"/>
-</div>
---- -->
 <h1 align="left">
   Tarang.    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDFtaTh2YXo0cG90cDQ1NWRkamhyNzBwZHZ4bmN4b3VzMjV6MzR6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1XodwykSjVClnhLuV8/giphy.gif" width="45" align="center" />
 </h1>
 
 <p align="left">
   <strong>DESIGNER X DEVELOPER</strong> <br>
-  Full-Stack Developer | React Native • Next.js • Node.js <br/>
+ 
   <a href="mailto:tarangkumar170@gmail.com">
     <img src="https://api.iconify.design/logos:google-gmail.svg?width=16" alt="Gmail" /> tarangkumar170@gmail.com
   </a>
