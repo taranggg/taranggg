@@ -24,7 +24,7 @@ if the ui don't feel smooth, i'm not shipping it — no cap
   <strong>DESIGNER X DEVELOPER</strong> <br>
   Full-Stack Developer | React Native • Next.js • Node.js <br/>
   <a href="mailto:tarangkumar170@gmail.com">
-    <img src="https://api.iconify.design/mdi:email.svg?color=%23ffffff&width=16" alt="Email" /> tarangkumar170@gmail.com
+    <img src="https://api.iconify.design/logos:google-gmail.svg?width=16" alt="Gmail" /> tarangkumar170@gmail.com
   </a>
 </p>
 
@@ -170,8 +170,9 @@ When a project requires a premium aesthetic, I spend my time making it absolutel
 
 <br/>
 
+---
+
 <p align="left">
   <i>staying toxic in the backend so the ui stays peaceful.</i>
+  peace out.
 </p>
-
----
