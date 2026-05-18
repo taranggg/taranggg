@@ -11,8 +11,27 @@ import yaml
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import src.markdown as markdown
+from main import get_game_owner
 
 REPO = "taranggg/taranggg"
+
+
+def normalize_last_moves(settings):
+    """Ensure Start game is always credited to the configured game owner."""
+    owner = get_game_owner(settings)
+    path = "data/last_moves.txt"
+    if not os.path.exists(path):
+        return
+
+    with open(path, "r") as file:
+        lines = file.readlines()
+
+    with open(path, "w") as file:
+        for line in lines:
+            if line.lower().startswith("start game:"):
+                file.write(f"Start game: {owner}\n")
+            else:
+                file.write(line)
 
 
 def replace_text_between(original_text, marker, replacement_text):
@@ -45,6 +64,7 @@ def main():
     with open("data/settings.yaml", "r") as settings_file:
         settings = yaml.load(settings_file, Loader=yaml.FullLoader)
 
+    normalize_last_moves(settings)
     board = load_board()
 
     with open("README.md", "r") as file:

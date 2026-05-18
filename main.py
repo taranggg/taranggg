@@ -60,6 +60,14 @@ def replace_text_between(original_text, marker, replacement_text):
     return leading_text + delimiter_a + replacement_text + delimiter_b + trailing_text
 
 
+def get_game_owner(settings):
+    """Return game host as @username from settings."""
+    owner = settings.get('game', {}).get('owner', os.environ.get('REPOSITORY_OWNER', ''))
+    if not owner.startswith('@'):
+        owner = '@' + owner
+    return owner
+
+
 def parse_issue(title):
     """Parse issue title and return a tuple with (action, <move>)"""
     if title.lower() == 'chess: start new game':
@@ -75,7 +83,7 @@ def parse_issue(title):
     return (Action.UNKNOWN, None)
 
 
-def main(issue, issue_author, repo_owner):
+def main(issue, issue_author, game_owner):
     action = parse_issue(issue.title)
     gameboard = chess.Board()
 
@@ -83,20 +91,21 @@ def main(issue, issue_author, repo_owner):
         settings = yaml.load(settings_file, Loader=yaml.FullLoader)
 
     if action[0] == Action.NEW_GAME:
-        if os.path.exists('games/current.pgn') and issue_author != repo_owner:
-            issue.create_comment(settings['comments']['invalid_new_game'].format(author=issue_author))
+        if os.path.exists('games/current.pgn') and issue_author != game_owner:
+            issue.create_comment(settings['comments']['invalid_new_game'].format(
+                author=issue_author, owner=game_owner))
             issue.edit(state='closed')
-            return False, 'ERROR: A current game is in progress. Only the repo owner can start a new game'
+            return False, 'ERROR: A current game is in progress. Only the game owner can start a new game'
 
         issue.create_comment(settings['comments']['successful_new_game'].format(author=issue_author))
         issue.edit(state='closed')
 
         with open('data/last_moves.txt', 'w') as last_moves:
-            last_moves.write('Start game: ' + issue_author)
+            last_moves.write('Start game: ' + game_owner)
 
         # Create new game
         game = chess.pgn.Game()
-        game.headers['Event'] = repo_owner + '\'s Online Open Chess Tournament'
+        game.headers['Event'] = game_owner + '\'s Online Open Chess Tournament'
         game.headers['Site'] = 'https://github.com/' + os.environ['GITHUB_REPOSITORY']
         game.headers['Date'] = datetime.now().strftime('%Y.%m.%d')
         game.headers['Round'] = '1'
@@ -221,9 +230,12 @@ if __name__ == '__main__':
         repo = Github(os.environ['GITHUB_TOKEN']).get_repo(os.environ['GITHUB_REPOSITORY'])
         issue = repo.get_issue(number=int(os.environ['ISSUE_NUMBER']))
         issue_author = '@' + issue.user.login
-        repo_owner = '@' + os.environ['REPOSITORY_OWNER']
 
-    ret, reason = main(issue, issue_author, repo_owner)
+        with open('data/settings.yaml', 'r') as settings_file:
+            settings = yaml.load(settings_file, Loader=yaml.FullLoader)
+        game_owner = get_game_owner(settings)
+
+    ret, reason = main(issue, issue_author, game_owner)
 
     if ret == False:
         sys.exit(reason)

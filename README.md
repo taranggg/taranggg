@@ -77,7 +77,7 @@ Have you spotted a bug? Feel free to open an [issue](https://github.com/marcizhu
 | Move | Author |
 | :--: | :----- |
 | `E2` to `E3` | [ @taranggg](https://github.com/taranggg) |
-| `Start game` | [ @tarangkumar](https://github.com/tarangkumar) |
+| `Start game` | [ @taranggg](https://github.com/taranggg) |
 
 <!-- END LAST MOVES -->
 </details>

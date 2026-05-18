@@ -12,7 +12,7 @@ def get_test_data(settings, move_data, owner, i):
         if move_data['author'] == owner:
             comments += [settings['comments']['successful_new_game'].format(author='@.+')]
         else:
-            comments += [settings['comments']['invalid_new_game'].format(author='@.+')]
+            comments += [settings['comments']['invalid_new_game'].format(author='@.+', owner='@.+')]
     elif 'is_invalid' not in move_data or move_data['is_invalid'] == False:
         labels += ['White' if i % 2 == 1 else 'Black']
         comments += [settings['comments']['successful_move'].format(author='@.+', move='.....?')]
