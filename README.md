@@ -22,7 +22,10 @@ if the ui don't feel smooth, i'm not shipping it — no cap
 
 <p align="left">
   <strong>DESIGNER X DEVELOPER</strong> <br>
-  Full-Stack Developer | React Native • Next.js • Node.js
+  Full-Stack Developer | React Native • Next.js • Node.js <br/>
+  <a href="mailto:tarangkumar170@gmail.com">
+    <img src="https://api.iconify.design/lucide:mail.svg?color=%23888888&width=20" alt="Email" />
+  </a>
 </p>
 
 <br/>
@@ -139,17 +142,14 @@ When a project requires a premium aesthetic, I spend my time making it absolutel
 
 <br/>
 
-<p align="left">
-  <i>staying toxic in the backend so the ui stays peaceful.</i>
-</p>
-
 ### The Stack
 
 **Languages & Core**
 
 <p align="left">
-  <i>staying toxic in the BACKEND so the UI stays peaceful.</i>
-</p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,html,css&perline=10" alt="Languages" />
+  </a>
 </p>
 
 **Frontend, Mobile & Animation**
@@ -169,5 +169,9 @@ When a project requires a premium aesthetic, I spend my time making it absolutel
 </p>
 
 <br/>
+
+<p align="left">
+  <i>staying toxic in the backend so the ui stays peaceful.</i>
+</p>
 
 ---
