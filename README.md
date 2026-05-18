@@ -2,23 +2,21 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Satisfy&size=38&duration=3500&pause=1000&color=993955&center=true&vCenter=true&width=700&height=70&lines=Hey+I'm+Tarang+👋;Frontend+Developer+from+India+🇮🇳;Building+cool+things+with+React+⚛️;Anime+%2B+Code+%2B+Creativity+✨" />
 </h1>
 
-<div align="center">
+<div align="left">
 
-💻 Frontend Developer focused on React, React Native & Next.js  
-🚀 Currently exploring Docker, AWS & scalable architectures  
-🎯 Building products that feel smooth, modern and interactive
+frontend dev locked in on react, react native & next.js  
+lowkey leveling up docker and aws so deploys actually hit  
+if the ui don't feel smooth, i'm not shipping it — no cap
 
 </div>
 
 <br/>
 
 <div align="center">
-  <!-- <img src="https://media.giphy.com/media/LLNsGJo5akIbPNb7hz/giphy.gif" width="220"/> -->
-   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmp3NTZwdHY0bnh2cGltMmF2Z3l6NWdmbnd3MjY1bm92bHA3MG1hbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vLZJfnIqxLla26Gr4i/giphy.gif
-" width="220"/>
-
+  <img src="https://media.giphy.com/media/LLNsGJo5akIbPNb7hz/giphy.gif" width="220"/>
+  &nbsp;
+  <img src="img/capybara/Happy%20Dance%20GIF.gif" width="220"/>
 </div>
-
 ---
 
 # ♟️ Play Chess Against Me
