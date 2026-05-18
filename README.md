@@ -17,67 +17,58 @@ if the ui don't feel smooth, i'm not shipping it — no cap
 </div>
 --- -->
 <h1 align="left">
-  tarang <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDFtaTh2YXo0cG90cDQ1NWRkamhyNzBwZHZ4bmN4b3VzMjV6MzR6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1XodwykSjVClnhLuV8/giphy.gif" width="50" align="center" />
+  Tarang.    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDFtaTh2YXo0cG90cDQ1NWRkamhyNzBwZHZ4bmN4b3VzMjV6MzR6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1XodwykSjVClnhLuV8/giphy.gif" width="45" align="center" />
 </h1>
 
 <p align="left">
-  DESIGNER X DEVELOPER <br>
-  full-stack dev | react native • next.js • node.js
+  <strong>DESIGNER X DEVELOPER</strong> <br>
+  Full-Stack Developer | React Native • Next.js • Node.js
 </p>
 
 <br/>
 
-dev locked in on crafting buttery smooth apps across web and mobile. delivering clean code, fast apis, and ui that actually hits right.
+A developer locked in on crafting buttery-smooth applications across web and mobile. I focus on delivering clean code, fast APIs, and user interfaces that actually feel right.
 
-### what i'm on right now
+### What I'm working on right now
 
-currently architecting scalable platforms with react native and next.js, backed by solid node.js architectures. i've built and shipped apps for 500+ users, hooking up complex stripe and google api integrations along the way to make sure the backend does exactly what it needs to.
+Currently architecting scalable cross-platform platforms with React Native and Expo, alongside building high-performance modern web apps using Next.js, TypeScript, and Tailwind CSS. I have built and shipped applications for 500+ users, integrating complex Stripe and Google APIs to ensure the backend is just as robust as the frontend.
 
-obsessed with performance. whether it's engineering 40%+ performance boosts, killing redundant re-renders, or optimizing client side loads, if it's not fast, i'm not shipping it.
+I am absolutely obsessed with performance. Whether it is engineering 40%+ speed boosts, eliminating redundant UI re-renders, or optimizing client-side media compression, if the application is not fast, I am not shipping it.
 
-i also spend time cooking up headless shopify storefronts and custom 3d animations in spline when the project needs that extra sauce, all while leveling up my docker and aws game so the deploys are as seamless as the frontend.
+When a project requires a premium aesthetic, I spend my time building headless Shopify storefronts using Hydrogen and Liquid, or cooking up custom 3D animations using Spline and Framer Motion. All of this happens while leveling up my Docker and AWS infrastructure skills, so the deployments are as seamless as the user experience.
 
 <br/>
 
-### the stack
+### The Stack
 
-**languages & core**
+**Languages & Core**
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,html,css&perline=10" />
+    <img src="https://skillicons.dev/icons?i=ts,js,html,css&perline=10" alt="Languages" />
   </a>
 </p>
 
-**frontend & mobile**
+**Frontend, Mobile & Animation**
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&perline=10" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,framer,shopify&perline=10" alt="Frontend Frameworks" />
   </a>
 </p>
 
-**backend, cloud & tooling**
+**Backend, Cloud & Tooling**
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws,git,github,vscode,figma&perline=10" />
+    <img src="https://skillicons.dev/icons?i=nodejs,docker,aws,git,github,vscode,figma&perline=10" alt="Backend and Cloud" />
   </a>
 </p>
 
 <br/>
 
-### github stats
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=taranggg&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taranggg&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="languages graph" />
-</div>
-
-<br/>
-
 <p align="left">
-  <i>let's build something cool.</i>
+  <i>Let's build something cool.</i>
 </p>
 ---
 
