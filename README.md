@@ -1,11 +1,11 @@
-<h1 align="center">
+<!-- <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Satisfy&size=38&duration=3500&pause=1000&color=993955&center=true&vCenter=true&width=700&height=70&lines=Hey+I'm+Tarang+👋;Frontend+Developer+from+India+🇮🇳;Building+cool+things+with+React+⚛️;Anime+%2B+Code+%2B+Creativity+✨" />
 </h1>
 
 <div align="left">
 
-frontend dev locked in on react, react native & next.js  
-lowkey leveling up docker and aws so deploys actually hit  
+frontend dev locked in on react, react native & next.js
+lowkey leveling up docker and aws so deploys actually hit
 if the ui don't feel smooth, i'm not shipping it — no cap
 
 </div>
@@ -13,7 +13,72 @@ if the ui don't feel smooth, i'm not shipping it — no cap
 <br/>
 
 <div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGtjOHY4ajBwdWptOWFyYTVtcGNzcmthdWt2N2N6cXp6cjl4YmthNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/OgUorGH0Z75b3unoPA/giphy.gif" width="220"/>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnMxcHljOHB2M2o0ajBvZmQxdHpzcG5rZWFodjNycDh4MzR3Zm5taiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sbW2AUZLt98WoenLSl/giphy.gif" width="220"/>
+</div>
+--- -->
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDFtaTh2YXo0cG90cDQ1NWRkamhyNzBwZHZ4bmN4b3VzMjV6MzR6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1XodwykSjVClnhLuV8/giphy.gif" width="120" />
+  
+  <h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Satisfy&size=38&duration=3500&pause=1000&color=993955&center=true&vCenter=true&width=700&height=70&lines=hey+im+tarang;software+engineer+from+india;web,+mobile,+smooth+uis;anime+%2B+code+%2B+creativity" />
+  </h1>
+</div>
+
+<div align="center">
+  <em>dev locked in on crafting buttery smooth apps across web and mobile. <br> from headless storefronts to 3D particles, i make sure the ui hits right and the deploys don't miss.</em>
+</div>
+
+<br/>
+
+### what i'm on right now
+
+currently architecting scalable mobile apps with react native and expo, while building high performance headless storefronts using shopify hydrogen.
+
+i spend a lot of time cooking up custom webgl shaders, building out scenes in spline, and making scroll animations feel natural with framer motion. absolutely obsessed with killing redundant re-renders and optimizing client side loads.
+
+also lowkey leveling up docker and aws so the backend setup is as solid as the frontend.
+
+<br/>
+
+### the stack
+
+**languages & core**
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,html,css&perline=10" />
+  </a>
+</p>
+
+**web & mobile frameworks**
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs&perline=10" />
+  </a>
+</p>
+
+**cloud, tooling & design**
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,aws,git,github,vscode,figma&perline=10" />
+  </a>
+</p>
+
+<br/>
+
+### github stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="languages graph"  />
+</div>
+
+<br/>
+
+<div align="center">
+  <i>let's build something cool.</i>
 </div>
 ---
 
