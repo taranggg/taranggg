@@ -78,9 +78,9 @@ Have you spotted a bug? Feel free to open an [issue](https://github.com/marcizhu
   <summary>Last 5 moves in this game</summary>
   <!-- BEGIN LAST MOVES -->
 
-|     Move     | Author                                          |
-| :----------: | :---------------------------------------------- |
-| `Start game` | [ @tarangkumar](https://github.com/tarangkumar) |
+|     Move     | Author                                   |
+| :----------: | :--------------------------------------- |
+| `Start game` | [ @tarangg](https://github.com/taranggg) |
 
 <!-- END LAST MOVES -->
 </details>
@@ -96,6 +96,3 @@ Have you spotted a bug? Feel free to open an [issue](https://github.com/marcizhu
 </details>
 
 ---
-
-Powered by [marcizhu/readme-chess](https://github.com/marcizhu/readme-chess)
-![](https://hit.yhype.me/github/profile?user_id=61132940)
