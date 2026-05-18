@@ -2,7 +2,6 @@ import re
 import os
 import os.path
 import sys
-import ast
 from enum import Enum
 from datetime import datetime
 
@@ -25,17 +24,14 @@ class Action(Enum):
 
 def update_top_moves(user):
     """Adds the given user to the top moves file"""
-    with open('data/top_moves.txt', 'r') as file:
-        contents = file.read()
-        dictionary = ast.literal_eval(contents)
+    dictionary = markdown.load_top_moves()
 
     if user not in dictionary:
-        dictionary[user] = 1 # First move
+        dictionary[user] = 1
     else:
         dictionary[user] += 1
 
-    with open('data/top_moves.txt', 'w') as file:
-        file.write(str(dictionary))
+    markdown.save_top_moves(dictionary)
 
 
 def update_last_moves(line):

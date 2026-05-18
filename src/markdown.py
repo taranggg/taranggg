@@ -38,11 +38,31 @@ def create_issue_link(source, dest_list):
     ret = [create_link(dest, issue_link.format(source=source, dest=dest)) for dest in sorted(dest_list)]
     return ", ".join(ret)
 
+def load_top_moves():
+    path = "data/top_moves.txt"
+    if not os.path.exists(path):
+        return {}
+
+    with open(path, 'r') as file:
+        contents = file.read().strip()
+        if not contents:
+            return {}
+        return ast.literal_eval(contents)
+
+
+def save_top_moves(dictionary):
+    with open("data/top_moves.txt", 'w') as file:
+        file.write(str(dictionary))
+
+
 def generate_top_moves():
-    with open("data/top_moves.txt", 'r') as file:
-        dictionary = ast.literal_eval(file.read())
+    dictionary = load_top_moves()
 
     markdown = "\n"
+    if not dictionary:
+        markdown += "_No moves recorded yet. Make a move on the board to get on the leaderboard!_\n"
+        return markdown + "\n"
+
     markdown += "| Total moves |  User  |\n"
     markdown += "| :---------: | :----- |\n"
 

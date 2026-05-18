@@ -78,10 +78,20 @@ def run(main_fn):
     passed = 0
     failed = 0
 
+    top_moves_backup = None
+    top_moves_path = 'data/top_moves.txt'
+    if os.path.exists(top_moves_path):
+        with open(top_moves_path, 'r') as file:
+            top_moves_backup = file.read()
+
     for f in [f for f in os.listdir('tests/') if re.match('.+\\.yml', f)]:        
         passed_tmp, failed_tmp = run_test_case('tests/' + f, main_fn)
         passed += passed_tmp
         failed += failed_tmp
+
+    if top_moves_backup is not None:
+        with open(top_moves_path, 'w') as file:
+            file.write(top_moves_backup)
 
     total = passed + failed
     
